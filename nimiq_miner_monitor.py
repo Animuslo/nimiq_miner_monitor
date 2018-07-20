@@ -223,4 +223,3 @@ async def network(ctx):
     await bot.say(destination_network, embed=network_embed)
 
 bot.run(discord_token) #insert token for discord
-# bot.run('NDY3NzU0NjcxODg5NzExMTUx.DivOBA.S-fBZyegL7sB4mpB4E7vR0fVguQ') #insert token for discord
