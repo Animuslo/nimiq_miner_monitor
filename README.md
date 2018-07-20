@@ -12,9 +12,10 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
 - Miners connected to the SushiPool
 - Discord bot token 
 - Own discord server
+-Script:nimiq_miner_monitor.py
 
 
-### Installing
+### Installing basic requirements
 **Create own Discord server***
 - For guidline--> https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-
 
@@ -32,12 +33,19 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
     https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0
     - Select the server where you would like the bot to be addedd to and click button Authorize 
     
-**Python (version above 3.6.) and Requirements**
+**Python (version above 3.6.) and Package requirements**
 - Python IDLE
   - Download and install python from link(bot done in 3.6.5.): https://www.python.org/downloads/ 
 - Install packages
-  - Download 
-  - Open Command Prompt (CMD)
+  - Download requirements.txt
+  - Open Command Prompt (CMD) and navigate to the folder where you have download requirements.txt
+  - Execute command:
+```pip install -r requirements.txt```
+
+**Running the script**
+- Download the nimiq_miner_monitor.py
+
+**Bot 
 
 
 ## Built With
@@ -49,10 +57,6 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Animus** 
@@ -61,5 +65,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
