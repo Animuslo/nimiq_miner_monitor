@@ -11,9 +11,13 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
 - Nimiq wallet address
 - Miners connected to the SushiPool
 - Discord bot token 
+- Own discord server
 
 
 ### Installing
+**Create own Discord server***
+- For guidline--> https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-
+
 **Discord bot set-up**
 - Register and create application at Discord developer portal-> https://discordapp.com/developers/applications/
   - GENERAL INFORMATION: 
@@ -23,17 +27,23 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
     - Under Build-a-bot section select Add bot button and fill in required information
     - Copy and store provided TOKEN (Click to Reveal Token) into a folder where it is easilly accessible. You will need it to run the
       miner monitor set-up process.
-  - Ad a bot to a server
+  - Add a bot to a server
     - Replace in bellow provided link part 'YOUR_CLIENT_ID_HERE' with bot's Client ID. 
     https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0
     - Select the server where you would like the bot to be addedd to and click button Authorize 
-   
+    
+**Python (version above 3.6.) and Requirements**
+- Python IDLE
+  - Download and install python from link(bot done in 3.6.5.): https://www.python.org/downloads/ 
+- Install packages
+  - Download 
+  - Open Command Prompt (CMD)
 
 
 ## Built With
 
-* [Python 3.6.](https://www.python.org/)
-* [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE 
+* [Python 3.6.5](https://www.python.org/)
+* [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDLE
 
 ## Contributing
 
