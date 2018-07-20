@@ -6,26 +6,34 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
 
 ### Prerequisites
 
-- Python 3.6. 
-  - Required packages in text file Requirements.txt
+- Python 3.6. with IDLE (Bot written in PyCharm)
+  - For required packages/libraries check Requirements.txt
 - Nimiq wallet address
 - Miners connected to the SushiPool
+- Discord bot token 
+
 
 ### Installing
+**Discord bot set-up**
+- Register and create application at Discord developer portal-> https://discordapp.com/developers/applications/
+  - GENERAL INFORMATION: 
+    - Choose name and profile picture for the bot 
+    - Copy and store provided Client ID
+  - BOT
+    - Under Build-a-bot section select Add bot button and fill in required information
+    - Copy and store provided TOKEN (Click to Reveal Token) into a folder where it is easilly accessible. You will need it to run the
+      miner monitor set-up process.
+  - Ad a bot to a server
+    - Replace in bellow provided link part 'YOUR_CLIENT_ID_HERE' with bot's Client ID. 
+    https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0
+    - Select the server where you would like the bot to be addedd to and click button Authorize 
+   
 
-A step by step series of examples that tell you how to get a development env running
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python 3.6.](https://www.python.org/)
+* [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE 
 
 ## Contributing
 
@@ -37,7 +45,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Animus** 
 
 ## License
 
