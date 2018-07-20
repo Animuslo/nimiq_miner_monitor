@@ -15,7 +15,7 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
 -Script:nimiq_miner_monitor.py
 
 
-### Installing basic requirements
+### Installing and running the bot
 **Create own Discord server***
 - For guidline--> https://support.discordapp.com/hc/en-us/articles/204849977-How-do-I-create-a-server-
 
@@ -33,29 +33,30 @@ Discord bot which helps users monitor their miners and wallet connected to Sushi
     https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0
     - Select the server where you would like the bot to be addedd to and click button Authorize 
     
-**Python (version above 3.6.) and Package requirements**
+**Python (version above 3.6.)**
 - Python IDLE
   - Download and install python from link(bot done in 3.6.5.): https://www.python.org/downloads/ 
-- Install packages
-  - Download requirements.txt
-  - Open Command Prompt (CMD) and navigate to the folder where you have download requirements.txt
-  - Execute command:
-```pip install -r requirements.txt```
 
-**Running the script**
-- Download the nimiq_miner_monitor.py
 
-**Bot 
+**Running the script and installing Package requirements for script to run**
+- Download zip of the project to your desktop
+- Open Command Prompt (CMD) and navigate to the folder where you have download requirements.txt
+  - Execute command:```pip install -r requirements.txt```
+- Run nimiq_miner_monitor.py from IDLE.
+  - For assistance watch the video from the link: http://www.pitt.edu/~naraehan/python3/getting_started_win_first_try.html
 
+### Initial miner monitor set-up
+- Once you run the nimiq_miner_monitor.py check the console for Initial set-up process. You will be asked to input following information:
+  -  Please provide token for discord:  
+  -  Please provide prefix you would like to have bot listening to:
+  -  Provide channel ID:
+    - On Discord, open your User Settings -> Appearance -> Enable Developer Mode. Right click on desired channel and select Copy ID
+  -  Provide wallet address in format XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXXX
 
 ## Built With
 
 * [Python 3.6.5](https://www.python.org/)
 * [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDLE
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
