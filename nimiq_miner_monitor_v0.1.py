@@ -128,7 +128,10 @@ async def simple_monitor(ctx, interval: int):
         status = 'online'
         time_of_update = time()
         json_address = json_address_for_sushi()
-        data = requests.get(json_address).json()
+        headers = {
+            'User-Agent': 'SushiSensei 1.0',
+        }     
+        data = requests.get(json_address, headers).json()
         devices = data['devices']
         destination = ctx.message.channel
 
